@@ -1,3 +1,11 @@
+---
+title: "Yoke 配件系列"
+description: "您可以在这里找到Yoke配件系列的介绍"
+tags: "Yoke, Home"
+published: true
+isPublished: true
+---
+
 Yoke 是 RyzoBee / Root 生态中的模块化配件系列，用于为 Root 主机快速扩展显示、灯光、传感、语音、电机、触摸、供电等功能。
 
 通过标准化接口与统一的模块设计，Yoke 配件可以减少复杂接线、降低硬件适配门槛，让 Maker、3D 打印创作者和开发者更快完成项目搭建、功能验证和作品复刻。

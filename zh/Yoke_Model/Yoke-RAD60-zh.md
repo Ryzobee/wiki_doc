@@ -1,3 +1,10 @@
+---
+title: "Yoke-RAD60"
+description: "Yoke-RAD60 60GHz毫米波存在传感器模块"
+tags: "Yoke, radar"
+published: true
+isPublished: true
+---
 <div style="display: flex; align-items: center; gap: 15px; margin: 15px 0; padding: 15px; background: #f7f7f7; border-radius: 16px; ">
   <div style="flex: 0 0 30%;"><img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_RAD60_Wiki_main.png" alt="RootMaker" style=" width: 100%; display: block; border-radius: 12px;"></div>
   <div style="flex: 1;">

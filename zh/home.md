@@ -1,3 +1,11 @@
+---
+title: "欢迎来到Ryzobee的Wiki"
+description: "欢迎来到Ryzobee的Wiki的页面，您能从这里获取到我们的软硬件产品支持"
+tags: "Ryzobee, Home"
+published: true
+isPublished: true
+---
+
 <div style="border-radius: 10px; padding: 15px; background: linear-gradient(135deg, #8DC6FF 0%, #AABEFF 100%); margin: 4px 0px; box-shadow: none;"><div style="max-width: 800px; margin: 0px auto; text-align: center; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;"><p style="color: #ffffff; margin: 0px 0px 1px; font-size: 22px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;">
     👆 <strong>使用顶部搜索栏搜索Wiki</strong> <br>
     👈 <strong>使用左侧快捷导航栏跳转不同类目</strong></p>

@@ -1,3 +1,11 @@
+---
+title: "Ryzobee 快速入门指南"
+description: ""
+tags: "Ryzobee, Home"
+published: true
+isPublished: true
+---
+
 # Ryzobee 快速入门指南
 
 欢迎使用 Ryzobee。  

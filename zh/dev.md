@@ -1,3 +1,11 @@
+---
+title: "Ryzobee Developer Center"
+description: "您可以在这里浏览开发者内容"
+tags: "Developer, Home"
+published: true
+isPublished: true
+---
+
 欢迎来到 Ryzobee Developer Center。  
 本页面面向希望基于 Root 主机和 Yoke 模块进行二次开发、固件定制、驱动适配或项目模板开发的用户。
 

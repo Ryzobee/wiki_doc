@@ -1,3 +1,10 @@
+---
+title: "RootMaker主机"
+description: "从RootMakerr主机开始您的创作之旅"
+tags: "Rootmaker, root, main"
+published: true
+isPublished: true
+---
 <div style="display: flex; align-items: center; gap: 15px; margin: 15px 0; padding: 15px; background: #f7f7f7; border-radius: 16px; ">
   <div style="flex: 0 0 30%;"><img src="https://res.8ms.xyz/ryzobee/wiki/RootMaker.png" alt="RootMaker" style=" width: 80%; display: block; border-radius: 12px;"></div>
   <div style="flex: 1;">

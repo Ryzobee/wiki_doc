@@ -1,3 +1,11 @@
+---
+title: "Ryzobee Arduino 库"
+description: "Ryzobee Arduino 库使用教程"
+tags: "Arduino, lib"
+published: true
+isPublished: true
+---
+
 Ryzobee Arduino 是一款专为 Ryzobee 系列开发板设计的 Arduino 支持库，为不同型号的开发板提供统一的编程接口，使开发过程更加迅速和高效。
 
 ## 库简介

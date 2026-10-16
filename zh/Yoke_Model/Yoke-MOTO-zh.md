@@ -73,7 +73,7 @@ Yoke-MOTO 可通过 RS-Port 线缆连接到 Root 主机。
 
 Yoke-MOTO 的实际工作电流取决于电机负载，模块内置约 450mA 的过流保护（OCP）。
 
-| 项目 | MAX | Type | Min |
+| 项目 | MAX | Typ. | Min |
 |---|---|---|---|
 | 供电电流(mA) | 450mA |  |  |
 | 供电电压(V) | 5V |  | 3.3V |

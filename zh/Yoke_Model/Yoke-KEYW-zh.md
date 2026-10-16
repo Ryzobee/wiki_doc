@@ -63,7 +63,7 @@ Yoke-KEYW 可通过 RS-Port 线缆连接到 Root 主机。
 
 ## 供电需求
 
-| 项目 | MAX | Type | Min |
+| 项目 | MAX | Typ. | Min |
 |---|---|---|---|
 | 供电电流(mA) | 10mA |  |  |
 | 供电电压(V) |  | 3.3V |  |

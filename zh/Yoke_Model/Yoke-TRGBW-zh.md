@@ -42,7 +42,7 @@ Yoke-TRGBW 集成 RGBW 灯珠，相比普通 RGB 灯效模块，额外增加独�
 使用 Yoke-TRGBW 前，请确认 Root 主机已正确烧录支持 RGBW 灯效控制的固件或项目模板。
 
 ### 与 Root 主机连接
-Yoke-TRGBW 可通过 RS-PortA 线缆连接到 Root 主机。
+Yoke-TRGBW 可通过 RS-Port 线缆连接到 Root 主机。
 
 <div style="text-align: center;">
      <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_TRGBW_Wiki_connect2rootmaker.png" alt="RootMaker" style="width: 60%; height: auto; border-radius: 5px; margin-bottom: 10px;"> 
@@ -77,14 +77,14 @@ Yoke-TRGBW 可安装在 3D 打印模型内部、半透明外壳后方、导光�
 
 ## 供电需求
 
-Yoke-TRGBW 的功耗与灯珠亮度、颜色和白光通道使用情况有关。
+Yoke-TRGBW 的工作电流随灯光亮度变化。
 
-| 项目 | MAX | Type | Min |
+| 项目 | MAX | Typ. | Min |
 |---|---|---|---|
 | 供电电流(mA) | 250mA |  |  |
 | 供电电压(V) | 5V |  | 3.3V |
 
-“MAX供电电流”为 RGB 灯条全白满亮等极限工况下的瞬时最大电流，正常使用时通常远低于该数值。
+模块在全部灯珠的 R、G、B、W 四个通道同时满亮时电流最高。日常使用通常不会同时将四个通道设置为满亮，实际工作电流随灯光亮度变化。
 
 ## 硬件规格
 

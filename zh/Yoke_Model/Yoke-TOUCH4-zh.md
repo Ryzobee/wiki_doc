@@ -1,7 +1,7 @@
 ---
 title: "Yoke-TOUCH4"
 description: "Yoke-TOUCH4 四通道触摸模块"
-tags: "Yoke, LEDs, RGBW"
+tags: "Yoke, Touch"
 published: true
 isPublished: true
 ---
@@ -91,7 +91,7 @@ Yoke-TOUCH4 可通过不同结构实现多种触摸交互方式。
 
 ## 供电需求
 
-| 项目       | MAX  | Type | Min  |
+| 项目       | MAX  | Typ. | Min  |
 | -------- | ---- | ---- | ---- |
 | 供电电流(mA) | 20mA |      |      |
 | 供电电压(V)  |   |   3.3V   |  |

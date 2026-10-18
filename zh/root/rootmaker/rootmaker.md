@@ -180,43 +180,25 @@ RootMaker 使用 USB-C 接口供电，推荐使用 **5V / 1A 以上** 的电源�
      点击跳转到开发者页面 →
     </a></div></div>
 
-#### 3. 准备浏览器
+#### 3. 使用 Zoner 部署项目
 
-**3.1 使用浏览器访问以下链接打开zoner工具平台。**
+**3.1 使用电脑上的 Chrome 或 Edge 打开 [Zoner 平台](https://zoner.ryzobee.com)。**
 
-<div style="display:flex;align-items:center;justify-content:space-between;gap:14px;margin:16px 0;padding:13px 16px;background:#fff7ed;border:1px solid #ffd4ad;border-radius:10px;">
-  <div style="font-size:13px;color:#555;line-height:1.5;">
-    <strong style="color:#222;font-size:15px;">访问Zoner平台</strong><br>
-    点击右侧按钮访问Zoner平台，或在浏览器地址栏输入zoner.ryzobee.com访问。
-  </div>
-  <a href="https://www.ryzobee.com" target="_blank" rel="noopener noreferrer" style="padding:7px 12px;background:#ff6a00;color:#fff;text-decoration:none;border-radius:6px;font-size:13px;font-weight:700;white-space:nowrap;">Visit Zoner</a>
-</div>
+浏览项目详情中的“项目介绍”“模块与接线”和“项目文件”，确认主机、模块与项目版本匹配。准备更新的设备如有重要脚本或数据，请先备份。
 
-**3.2 确保设备与PC连接无误后，点击Connect按钮连接设备。**
+**3.2 打开“我的设备”，点击“连接 RootMaker”。**
 
-<div style="text-align: center;"> <img src="https://res.8ms.xyz/ryzobee/wiki/Root/rootmaker/img/rootmaker_zoner_step1.png" alt="RootMaker" style="width: 60%; height: auto; border-radius: 5px; margin-bottom: 10px;"> </div>
+确认 USB 数据线连接正常，在浏览器弹出的串口选择器中选择对应主机并授权。关闭可能占用串口的其他工具。
 
-**3.3 在浏览器弹出的窗口中选择需要连接的串行端口。**
+**3.3 返回项目详情页，确认主机与项目版本，点击“一键部署到设备”。**
 
-<div style="text-align: center;"> <img src="https://res.8ms.xyz/ryzobee/wiki/Root/rootmaker/img/rootmaker_zoner_step2.png" alt="RootMaker" style="width: 60%; height: auto; border-radius: 5px; margin-bottom: 10px;"> </div>
+按照页面提示完成固件确认和部署。若项目只有案例资料，请先查看作者提供的文件与说明。
 
-**3.4 点击选择需要下载的项目模板，点击“Flash to Device”图标或点击项目标签进入项目详情页。**
+**3.4 等待页面提示完成，再按提示重启或重新连接设备。**
 
-<div style="text-align: center;"> <img src="https://res.8ms.xyz/ryzobee/wiki/Root/rootmaker/img/rootmaker_zoner_step3.png" alt="RootMaker" style="width: 60%; height: auto; border-radius: 5px; margin-bottom: 10px;"> </div>
+烧录期间不要移除 USB-C 线、切换供电或按下 Reset。更新时间取决于固件大小、网络与串口连接，请以页面进度为准。烧录会覆盖写入范围内的数据，完整固件可能覆盖脚本分区。
 
-**3.5 点击“Flash this project to Device”图标更新项目固件至设备。**
-
-<div style="text-align: center;"> <img src="https://res.8ms.xyz/ryzobee/wiki/Root/rootmaker/img/rootmaker_zoner_step4.png" alt="RootMaker" style="width: 60%; height: auto; border-radius: 5px; margin-bottom: 10px;"> </div>
-
-**3.6 等待设备固件更新完成。更新需要10-60秒，更新时间根据项目不同而不同，更新过程请勿移除与设备连接的USB-C线，或按下设备的Reset按钮。**
-
-<div style="text-align: center;"> <img src="https://res.8ms.xyz/ryzobee/wiki/Root/rootmaker/img/rootmaker_zoner_step5.png" alt="RootMaker" style="width: 60%; height: auto; border-radius: 5px; margin-bottom: 10px;"> </div>
-
-<div style="border-radius: 10px; padding: 15px; background: linear-gradient(135deg, #FFBA89 0%, #FFD884 100%); margin: 4px 0px; box-shadow: none;"><div style="max-width: 800px; margin: 0px auto; text-align: center; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;"><p style="color: #4B1F00; margin: 0px 0px 1px; font-size: 22px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;">
-      🥈 <strong>更多Zoner平台功能请前往Zoner Wiki页面</strong></p> 
-<a href="/zh/Zoner" target="_blank" class="is-internal-link is-valid-page" style="display: inline-block; padding: 4px 50px; background:#ffffff; color: #000000; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none; border-radius: 50px; font-weight: bold; text-decoration: none; transition: transform 0.2s; margin: 5px; margin-top: 15px; box-shadow: none;">
-      📖 查看Zoner Wiki 页面 →
-</a></div></div>
+详细操作请查看 [Zoner 快速开始](/zh/Zoner/quick_start)。设备状态、Wi-Fi 和自定义配置说明见 [设备管理](/zh/Zoner/device)，Lua 开发见 [R-Link Beta](/zh/Zoner/rlink)。
 
 #### 4. 准备 Yoke 模块
 

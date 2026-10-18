@@ -284,13 +284,12 @@ isPublished: true
 5. 网络连接是否正常。
 6. 项目模板是否仍在更新或测试中。
 
-```markdown
-- [Zoner 平台使用说明]()
-- [如何选择项目模板]()
-- [项目模板无法运行]()
-- [固件版本不匹配怎么办]()
-- [如何反馈 Zoner 项目问题]()
-```
+- [Zoner 平台使用说明](/zh/Zoner)
+- [如何选择项目并部署固件](/zh/Zoner/quick_start)
+- [连接、下载或烧录失败排查](/zh/Zoner/quick_start#troubleshooting)
+- [设备配网与自定义配置](/zh/Zoner/device)
+- [R-Link Lua 脚本问题](/zh/Zoner/rlink)
+- [如何反馈 Zoner 项目问题](/zh/Zoner#获取帮助)
 
 ## 开发环境问题
 
@@ -397,4 +396,3 @@ isPublished: true
 - [Discord 社区]()
 - [联系技术支持]()
 ```
-

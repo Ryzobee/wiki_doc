@@ -284,13 +284,12 @@ Check these items first:
 5. Is the network connection working?
 6. Is the project template still being updated or tested?
 
-```markdown
-- [Using the Zoner Platform]()
-- [How to Choose a Project Template]()
-- [Project Template Does Not Run]()
-- [What to Do When Firmware Versions Do Not Match]()
-- [How to Report Zoner Project Issues]()
-```
+- [Using the Zoner Platform](/en/Zoner)
+- [Choosing a Project and Deploying Firmware](/en/Zoner/quick_start)
+- [Connection, Download, and Flashing Troubleshooting](/en/Zoner/quick_start#troubleshooting)
+- [Wi-Fi and Custom Configuration](/en/Zoner/device)
+- [R-Link Lua Script Issues](/en/Zoner/rlink)
+- [Reporting Zoner Project Issues](/en/Zoner#getting-help)
 
 ## Development Environment Issues
 

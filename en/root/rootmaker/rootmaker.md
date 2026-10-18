@@ -180,43 +180,25 @@ For flashing firmware or debugging, connect to a computer with a USB-C data cabl
      Go to the Developer Center →
     </a></div></div>
 
-#### 3. Prepare Your Browser
+#### 3. Deploy a Project with Zoner
 
-**3.1 Open the Zoner tools platform in your browser using the link below.**
+**3.1 Open [Zoner](https://zoner.ryzobee.com) in Chrome or Edge on a computer.**
 
-<div style="display:flex;align-items:center;justify-content:space-between;gap:14px;margin:16px 0;padding:13px 16px;background:#fff7ed;border:1px solid #ffd4ad;border-radius:10px;">
-  <div style="font-size:13px;color:#555;line-height:1.5;">
-    <strong style="color:#222;font-size:15px;">Visit Zoner</strong><br>
-    Click the button on the right to visit Zoner, or enter zoner.ryzobee.com in your browser's address bar.
-  </div>
-  <a href="https://www.ryzobee.com" target="_blank" rel="noopener noreferrer" style="padding:7px 12px;background:#ff6a00;color:#fff;text-decoration:none;border-radius:6px;font-size:13px;font-weight:700;white-space:nowrap;">Visit Zoner</a>
-</div>
+Review the project introduction, modules and wiring, and project files. Confirm that the controller, modules, and project version match. Back up important scripts or data on the device before updating.
 
-**3.2 Check that the device is connected correctly to your PC, then click Connect.**
+**3.2 Open My Device and use the action to connect RootMaker.**
 
-<div style="text-align: center;"> <img src="https://res.8ms.xyz/ryzobee/wiki/Root/rootmaker/img/rootmaker_zoner_step1.png" alt="RootMaker" style="width: 60%; height: auto; border-radius: 5px; margin-bottom: 10px;"> </div>
+Check the USB data connection, then select the correct controller in the browser's serial-port picker and authorize access. Close other tools that may be using the port.
 
-**3.3 Select the serial port to connect to in the browser dialog.**
+**3.3 Return to the project detail page, confirm the controller and project version, and use the one-click deployment action.**
 
-<div style="text-align: center;"> <img src="https://res.8ms.xyz/ryzobee/wiki/Root/rootmaker/img/rootmaker_zoner_step2.png" alt="RootMaker" style="width: 60%; height: auto; border-radius: 5px; margin-bottom: 10px;"> </div>
+Follow the prompts to confirm the firmware and deploy it. If the project contains only reference material, first review the author's files and instructions.
 
-**3.4 Choose the project template you want to download. Click the “Flash to Device” icon, or click the project card to open its details.**
+**3.4 Wait for the completion message, then restart or reconnect if prompted.**
 
-<div style="text-align: center;"> <img src="https://res.8ms.xyz/ryzobee/wiki/Root/rootmaker/img/rootmaker_zoner_step3.png" alt="RootMaker" style="width: 60%; height: auto; border-radius: 5px; margin-bottom: 10px;"> </div>
+Do not remove the USB-C cable, change the power supply, or press Reset during flashing. Duration depends on firmware size, the network, and the serial connection; follow the on-screen progress. Flashing overwrites data in the write range, and a full image may overwrite the scripts partition.
 
-**3.5 Click “Flash this project to Device” to update the device's project firmware.**
-
-<div style="text-align: center;"> <img src="https://res.8ms.xyz/ryzobee/wiki/Root/rootmaker/img/rootmaker_zoner_step4.png" alt="RootMaker" style="width: 60%; height: auto; border-radius: 5px; margin-bottom: 10px;"> </div>
-
-**3.6 Wait for the firmware update to finish. It takes 10-60 seconds depending on the project. Do not disconnect the USB-C cable or press Reset during the update.**
-
-<div style="text-align: center;"> <img src="https://res.8ms.xyz/ryzobee/wiki/Root/rootmaker/img/rootmaker_zoner_step5.png" alt="RootMaker" style="width: 60%; height: auto; border-radius: 5px; margin-bottom: 10px;"> </div>
-
-<div style="border-radius: 10px; padding: 15px; background: linear-gradient(135deg, #FFBA89 0%, #FFD884 100%); margin: 4px 0px; box-shadow: none;"><div style="max-width: 800px; margin: 0px auto; text-align: center; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;"><p style="color: #4B1F00; margin: 0px 0px 1px; font-size: 22px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;">
-      🥈 <strong>Visit the Zoner Wiki page for more platform features.</strong></p> 
-<a href="/en/Zoner" target="_blank" class="is-internal-link is-valid-page" style="display: inline-block; padding: 4px 50px; background:#ffffff; color: #000000; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none; border-radius: 50px; font-weight: bold; text-decoration: none; transition: transform 0.2s; margin: 5px; margin-top: 15px; box-shadow: none;">
-      📖 View the Zoner Wiki →
-</a></div></div>
+For detailed instructions, see the [Zoner Quick Start](/en/Zoner/quick_start). See [Device Management](/en/Zoner/device) for device status, Wi-Fi, and custom configuration, or [R-Link Beta](/en/Zoner/rlink) for Lua development.
 
 #### 4. Prepare Yoke Modules
 

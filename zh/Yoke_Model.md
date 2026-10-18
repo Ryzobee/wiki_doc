@@ -38,14 +38,14 @@ Yoke 模块根据功能和结构需求，使用不同的接口形态与 Root 主
 | 接口类型              | 说明                                                 | 典型模块                              |
 | --------------------- | ---------------------------------------------------- | ------------------------------------- |
 | [RS-Port](#P_RS_PORT) | 适合小型传感器、灯光、按键、触摸和电机类模块         | Yoke-TRGBW、Yoke-RAD60、Yoke-MOTO     |
-| [F-BUS](#P_F_BUS)     | 适合显示、热成像、电池等需要较多信号或结构固定的模块 | Yoke-1D54C、Yoke-THERM5K、Yoke-BATT-F |
+| [F-BUS](#P_F_BUS)     | 适合触摸显示、热成像、USB PD 电机驱动等扩展模块 | Yoke-LCD1D54C、Yoke-THERM5K、Yoke-MOTOR-A |
 | [S-BUS](#P_S_BUS)     | 适合语音、音频等专用功能扩展模块                     | Yoke-VOICE                            |
 
 <div style="text-align: center;">
     <div style="display: inline-block; width: 20%; min-width: 140px; margin: 10px; text-align: center; background: rgb(255, 255, 255); border-radius: 5px; padding: 15px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;">
     <a href="#P_RS_PORT" target="_blank" class="is-external-link">
     <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Rootmaker_RSPort.png" alt="RootMaker" style="width: 100%; 	height: auto; border-radius: 5px; margin-bottom: 10px;"> 
-    <br> RS-BUS 接口配件 </a></div>
+    <br> RS-Port 接口配件 </a></div>
     <div style="display: inline-block; width: 20%; min-width: 140px; margin: 10px; text-align: center; background: rgb(255, 255, 255); border-radius: 5px; padding: 15px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;">
     <a href="#P_F_BUS" target="_blank" class="is-external-link">
     <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Rootmaker_FBUS.png" alt="RootMaker" style="width: 100%; 	height: auto; border-radius: 5px; margin-bottom: 10px;"> 
@@ -58,87 +58,91 @@ Yoke 模块根据功能和结构需求，使用不同的接口形态与 Root 主
 
 
 
-## RS-BUS 接口配件 <a id="P_RS_PORT"></a>
+## RS-Port 接口配件 <a id="P_RS_PORT"></a>
 
-<div style="text-align: center;">
-    <div style="display: inline-block; width: 20%; min-width: 140px; margin: 10px; text-align: center; background: rgb(255, 255, 255); border-radius: 5px; padding: 15px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;">
-    <a href="/zh/Yoke_Model/Yoke-RGBW-ZH" target="_blank" class="is-external-link">
-    <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_RGBW_Wiki_main.png" alt="RootMaker" style="width: 60%; 	height: auto; border-radius: 5px; margin-bottom: 10px;"> 
-    <br>
-        Yoke-RGBW<br>RGBW灯效模块
-    </a></div>
-    <div style="display: inline-block; width: 20%; min-width: 140px; margin: 10px; text-align: center; background: rgb(255, 255, 255); border-radius: 5px; padding: 15px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;">
-    <a href="/zh/Yoke_Model/Yoke-TRGBW-ZH" target="_blank" class="is-external-link">
-    <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_TRGBW_Wiki_main.png" alt="RootMaker" style="width: 100%; 	height: auto; border-radius: 5px; margin-bottom: 10px;"> 
-    <br>
-        Yoke-TRGBW<br>3x RGBW灯效模块
-    </a></div>
-    <div style="display: inline-block; width: 20%; min-width: 140px; min-heigh: 280px; margin: 10px; text-align: center; background: rgb(255, 255, 255); border-radius: 5px; padding: 15px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;">
-    <a href="/zh/Yoke_Model/Yoke-KEYW-ZH" target="_blank" class="is-external-link">
-    <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_KEYW_Wiki_main.png" alt="RootMaker" style="width: 100%; height: auto; border-radius: 5px; margin-bottom: 10px;"> 
-    <br>
-        Yoke-KEYW<br>轻触开关模块
-    </a></div>
-    <div style="display: inline-block; width: 20%; min-width: 140px; min-heigh: 280px; margin: 10px; text-align: center; background: rgb(255, 255, 255); border-radius: 5px; padding: 15px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;">
-    <a href="/zh/Yoke_Model/Yoke-MOTO-ZH" target="_blank" class="is-external-link">
-    <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_MOTO_Wiki_main.png" alt="RootMaker" style="width: 100%; 	height: auto; border-radius: 5px; margin-bottom: 10px;"> 
-    <br>
-        Yoke-MOTO<br>直流马达控制模块
-    </a></div>
-    <br>
-    <div style="display: inline-block; width: 20%; min-width: 140px; margin: 10px; text-align: center; background: rgb(255, 255, 255); border-radius: 5px; padding: 15px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;">
-    <a href="/zh/Yoke_Model/Yoke-RAD60-ZH" target="_blank" class="is-external-link">
-    <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_RAD60_Wiki_main.png" alt="RootMaker" style="width: 100%; 	height: auto; border-radius: 5px; margin-bottom: 10px;"> 
-    <br>
-        Yoke-RAD60<br>60G毫米波模块
-    </a></div>
-    <div style="display: inline-block; width: 20%; min-width: 140px; margin: 10px; text-align: center; background: rgb(255, 255, 255); border-radius: 5px; padding: 15px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;">
-    <a href="/zh/Yoke_Model/Yoke-TOUCH4-ZH" target="_blank" class="is-external-link">
-    <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_Touch4_Wiki_main.png" alt="RootMaker" style="width: 100%; 	height: auto; border-radius: 5px; margin-bottom: 10px;"> 
-    <br>
-        Yoke-TOUCH4<br>四通道触摸模块
-    </a></div>
-    <div style="display: inline-block; width: 20%; min-width: 140px; margin: 10px; text-align: center; background: rgb(255, 255, 255); border-radius: 5px; padding: 15px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;">
-    <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_coming_soon.png" alt="RootMaker" style="width: 100%; 	height: auto; border-radius: 5px; margin-bottom: 10px;"> 
-    <br>
-        即将推出
-    </a></div>
-    <div style="display: inline-block; width: 20%; min-width: 140px; margin: 10px; text-align: center; background: rgb(255, 255, 255); border-radius: 5px; padding: 15px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;">
-    <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_coming_soon.png" alt="RootMaker" style="width: 100%; 	height: auto; border-radius: 5px; margin-bottom: 10px;"> 
-    <br>
-        即将推出
-    </a></div>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 20px 0;">
+  <div style="flex: 0 1 200px; padding: 15px; text-align: center; background: #fff; border-radius: 5px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+    <a href="/zh/Yoke_Model/Yoke-RGBW-zh">
+      <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_RGBW_Wiki_main.png" alt="Yoke-RGBW RGBW 灯效模块" style="width: 100%; height: 150px; object-fit: contain; border-radius: 5px; margin-bottom: 10px;">
+      <br>Yoke-RGBW<br>RGBW 灯效模块
+    </a>
+  </div>
+  <div style="flex: 0 1 200px; padding: 15px; text-align: center; background: #fff; border-radius: 5px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+    <a href="/zh/Yoke_Model/Yoke-TRGBW-zh">
+      <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_TRGBW_Wiki_main.png" alt="Yoke-TRGBW 3× RGBW 灯效模块" style="width: 100%; height: 150px; object-fit: contain; border-radius: 5px; margin-bottom: 10px;">
+      <br>Yoke-TRGBW<br>3× RGBW 灯效模块
+    </a>
+  </div>
+  <div style="flex: 0 1 200px; padding: 15px; text-align: center; background: #fff; border-radius: 5px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+    <a href="/zh/Yoke_Model/Yoke-KEYW-zh">
+      <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_KEYW_Wiki_main.png" alt="Yoke-KEYW 轻触开关模块" style="width: 100%; height: 150px; object-fit: contain; border-radius: 5px; margin-bottom: 10px;">
+      <br>Yoke-KEYW<br>轻触开关模块
+    </a>
+  </div>
+  <div style="flex: 0 1 200px; padding: 15px; text-align: center; background: #fff; border-radius: 5px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+    <a href="/zh/Yoke_Model/Yoke-MOTO-zh">
+      <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_MOTO_Wiki_main.png" alt="Yoke-MOTO 直流马达控制模块" style="width: 100%; height: 150px; object-fit: contain; border-radius: 5px; margin-bottom: 10px;">
+      <br>Yoke-MOTO<br>直流马达控制模块
+    </a>
+  </div>
+  <div style="flex: 0 1 200px; padding: 15px; text-align: center; background: #fff; border-radius: 5px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+    <a href="/zh/Yoke_Model/Yoke-RAD60-zh">
+      <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_RAD60_Wiki_main.png" alt="Yoke-RAD60 60GHz 毫米波存在传感器模块" style="width: 100%; height: 150px; object-fit: contain; border-radius: 5px; margin-bottom: 10px;">
+      <br>Yoke-RAD60<br>60GHz 毫米波存在传感器模块
+    </a>
+  </div>
+  <div style="flex: 0 1 200px; padding: 15px; text-align: center; background: #fff; border-radius: 5px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+    <a href="/zh/Yoke_Model/Yoke-TOUCH4-zh">
+      <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_Touch4_Wiki_main.png" alt="Yoke-TOUCH4 四通道触摸模块" style="width: 100%; height: 150px; object-fit: contain; border-radius: 5px; margin-bottom: 10px;">
+      <br>Yoke-TOUCH4<br>四通道触摸模块
+    </a>
+  </div>
 </div>
 
+## F-BUS 接口配件 <a id="P_F_BUS"></a>
 
-## F-BUS 接口配件<a id="P_F_BUS"></a>
+Yoke-LCD1D54C 提供 240 × 240 像素彩色显示与电容触摸；Yoke-THERM5K 提供 80 × 62 像素热成像；Yoke-MOTOR-A 通过外部 USB-C PD 电源驱动单路有刷直流电机。各模块的安装位置、供电和引脚占用请分别查看详情页。
 
-<div style="text-align: center;">
-    <div style="display: inline-block; width: 20%; min-width: 140px; margin: 10px; text-align: center; background: rgb(255, 255, 255); border-radius: 5px; padding: 15px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;">
-    <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_coming_soon.png" alt="RootMaker" style="width: 100%; 	height: auto; border-radius: 5px; margin-bottom: 10px;"> 
-    <br>
-        即将推出
-    </a></div>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 20px 0;">
+  <div style="flex: 0 1 200px; padding: 15px; text-align: center; background: #fff; border-radius: 5px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+    <a href="/zh/Yoke_Model/Yoke-LCD1D54C-zh">
+      <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_LCD1D54C_Wiki_main.png" alt="Yoke-LCD1D54C 1.54 英寸触摸显示模块" style="width: 100%; height: 150px; object-fit: contain; border-radius: 5px; margin-bottom: 10px;">
+      <br>Yoke-LCD1D54C<br>1.54 英寸触摸显示模块
+    </a>
+  </div>
+  <div style="flex: 0 1 200px; padding: 15px; text-align: center; background: #fff; border-radius: 5px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+    <a href="/zh/Yoke_Model/Yoke-THERM5K-zh">
+      <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_THERM5K_Wiki_main.png" alt="Yoke-THERM5K 热成像传感器模块" style="width: 100%; height: 150px; object-fit: contain; border-radius: 5px; margin-bottom: 10px;">
+      <br>Yoke-THERM5K<br>热成像传感器模块
+    </a>
+  </div>
+  <div style="flex: 0 1 200px; padding: 15px; text-align: center; background: #fff; border-radius: 5px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+    <a href="/zh/Yoke_Model/Yoke-MOTOR-A-zh">
+      <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/ZXYoke-MOTOR-A_Wiki_main.png" alt="Yoke-MOTOR-A USB PD 直流马达控制模块" style="width: 100%; height: 150px; object-fit: contain; border-radius: 5px; margin-bottom: 10px;">
+      <br>Yoke-MOTOR-A<br>USB PD 直流马达控制模块
+    </a>
+  </div>
 </div>
 
-## S-BUS接口配件<a id="P_S_BUS"></a>
+## S-BUS 接口配件 <a id="P_S_BUS"></a>
 
-<div style="text-align: center;">
-    <div style="display: inline-block; width: 20%; min-width: 140px; margin: 10px; text-align: center; background: rgb(255, 255, 255); border-radius: 5px; padding: 15px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;">
-    <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_coming_soon.png" alt="RootMaker" style="width: 100%; 	height: auto; border-radius: 5px; margin-bottom: 10px;"> 
-    <br>
-        即将推出
-    </a></div>
+Yoke-VOICE 集成麦克风与扬声器，通过 UART 与主机通信，可用于语音提示和音频交互。具体功能取决于主机与模块固件支持。
+
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin: 20px 0;">
+  <div style="flex: 0 1 200px; padding: 15px; text-align: center; background: #fff; border-radius: 5px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);">
+    <a href="/zh/Yoke_Model/Yoke-VOICE-zh">
+      <img src="https://res.8ms.xyz/ryzobee/wiki/Yoke/Yoke_VOICE_Wiki_main.png" alt="Yoke-VOICE 语音模块" style="width: 100%; height: 150px; object-fit: contain; border-radius: 5px; margin-bottom: 10px;">
+      <br>Yoke-VOICE<br>语音模块
+    </a>
+  </div>
 </div>
-
-
 
 ## 使用 Yoke 模块的基本流程
 
 1. 根据项目需求选择合适的 Yoke 模块。
 2. 确认 Root 主机是否支持该模块的接口类型。
 3. 在断电状态下连接模块。
-4. 使用 Zoner 平台选择对应项目模板。
+4. 按照 [Zoner 快速开始](/zh/Zoner/quick_start) 选择与主机及模块匹配的项目。
 5. 烧录或配置固件。
 6. 上电运行并检查模块状态。
 7. 根据项目结构安装模块和线缆。
@@ -146,7 +150,7 @@ Yoke 模块根据功能和结构需求，使用不同的接口形态与 Root 主
 
 ## 与 Zoner 平台配合使用
 
-Zoner 平台用于快速配置项目模板。  
+[Zoner 平台](/zh/Zoner) 用于查找项目资料、部署固件和管理设备。
 用户可以在 Zoner 中查找与 Yoke 模块对应的项目案例、固件资源、配置说明和装配指南。
 
 通过 Zoner，用户可以更快完成以下操作：
@@ -158,7 +162,7 @@ Zoner 平台用于快速配置项目模板。
 - 获取装配说明
 - 复刻官方项目案例
 
-例如，用户可以选择 “RootMaker + Yoke-TRGBW” 的灯效模板，快速完成 Minecraft Ore Lamp 或桌面氛围灯项目。
+项目是否提供可部署固件、支持哪些模块和配置项，请以项目详情页为准。模块已有 Wiki 页面，并不代表所有项目都已支持该模块。
 
 ## 使用注意事项
 
@@ -176,26 +180,36 @@ Zoner 平台用于快速配置项目模板。
 
 你可以从以下页面了解每个 Yoke 模块的详细使用方法：
 
-- [Yoke-KEYW 轻触开关模块](/zh/Yoke_Model/Yoke-KEYW-ZH)
-- [Yoke-MOTO 直流马达控制模块](/zh/Yoke_Model/Yoke-MOTO-ZH)
-- [Yoke-RAD60 60GHz毫米波存在传感器模块](/zh/Yoke_Model/Yoke-RAD60-ZH)
-- [Yoke-RGBW RGBW灯效模块](/zh/Yoke_Model/Yoke-TRGBW-ZH)
-- [Yoke-TRGBW 3x RGBW灯效模块](/zh/Yoke_Model/Yoke-TRGBW-ZH)
-- [Yoke-TOUCH4 四通道触摸模块](/zh/Yoke_Model/Yoke-TOUCH4-ZH)
+### RS-Port
 
+- [Yoke-RGBW RGBW 灯效模块](/zh/Yoke_Model/Yoke-RGBW-zh)
+- [Yoke-TRGBW 3× RGBW 灯效模块](/zh/Yoke_Model/Yoke-TRGBW-zh)
+- [Yoke-KEYW 轻触开关模块](/zh/Yoke_Model/Yoke-KEYW-zh)
+- [Yoke-MOTO 直流马达控制模块](/zh/Yoke_Model/Yoke-MOTO-zh)
+- [Yoke-RAD60 60GHz 毫米波存在传感器模块](/zh/Yoke_Model/Yoke-RAD60-zh)
+- [Yoke-TOUCH4 四通道触摸模块](/zh/Yoke_Model/Yoke-TOUCH4-zh)
 
+### F-BUS
+
+- [Yoke-LCD1D54C 1.54 英寸触摸显示模块](/zh/Yoke_Model/Yoke-LCD1D54C-zh)
+- [Yoke-THERM5K 热成像传感器模块](/zh/Yoke_Model/Yoke-THERM5K-zh)
+- [Yoke-MOTOR-A USB PD 直流马达控制模块](/zh/Yoke_Model/Yoke-MOTOR-A-zh)
+
+### S-BUS
+
+- [Yoke-VOICE 语音模块](/zh/Yoke_Model/Yoke-VOICE-zh)
 
 ## 常见问题
 
 <div style="border-left: 6px solid #ff6a00;background: #fff7ed;padding: 10px 16px; border-radius: 0px;">
-  <h3 class="toc-header" style="margin-top: 0px; color:#FFA00;"><a href="https://github.com/Ryzobee" class="toc-anchor"></a>📘<a style="color: #FF6A00; text-decoration: none;"> 查看所有FAQ</a></h3>
+  <h3 class="toc-header" style="margin-top: 0px; color:#FF6A00;"><a href="https://github.com/Ryzobee" class="toc-anchor"></a>📘<a style="color: #FF6A00; text-decoration: none;"> 查看所有FAQ</a></h3>
   <p style="margin-bottom: 10px;">
-  如果这里没有找到您遇到问题，可以查看完整FAQ列表，或通过邮箱联系我们 ✉ ryzobee@support.com
+  如果这里没有找到您遇到问题，可以查看完整FAQ列表，或通过邮箱联系我们 ✉ support@ryzobee.com
   </p>
-<div style="text-align: center;"><a href="/zh/faq/faq_mainpage" target="_blank" style="display: inline-block; padding: 4px 25px; background: #FF6A00; color: rgb(255, 255, 255); border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none; border-radius: 50px; font-weight: bold; text-decoration: none; transition: transform 0.2s; margin: 5px; box-shadow: none;">
+<div style="text-align: center;"><a href="/zh/faq" target="_blank" style="display: inline-block; padding: 4px 25px; background: #FF6A00; color: rgb(255, 255, 255); border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none; border-radius: 50px; font-weight: bold; text-decoration: none; transition: transform 0.2s; margin: 5px; box-shadow: none;">
      点击跳转到FAQ页面 →
     </a></div>
-  </p></div>
+  </div>
 
 ### Yoke 模块可以直接热插拔吗？
 
@@ -204,7 +218,7 @@ Zoner 平台用于快速配置项目模板。
 
 ### 一个 Root 主机可以连接多个 Yoke 模块吗？
 
-可以，但需要根据 Root 主机的接口数量、固件支持情况和整体供电能力进行判断。  
+可以，但需要根据 Root 主机的接口数量、引脚占用、安装空间、固件支持情况和整体供电能力进行判断。相同接口类型不代表模块可以任意叠加使用。
 如果同时使用多个高功耗模块，例如灯效模块、电机模块和显示模块，应特别注意供电余量。
 
 ### Yoke 模块是否需要单独烧录固件？

@@ -58,11 +58,13 @@ Yoke accessories are modular expansion components designed around Root controlle
 
 ## Zoner Platform
 
-Zoner is a website for quickly deploying project templates. It lowers the barrier from an idea to a working creation and helps users debug, deploy, and share projects faster.
+Zoner lets you discover projects, review modules and wiring, deploy firmware, and manage devices. R-Link Beta also lets you write and manage RootMaker Lua scripts.
+
+See the [Zoner Platform Overview](/en/Zoner), [Device Management](/en/Zoner/device), or [R-Link Beta Guide](/en/Zoner/rlink).
 
 <div style="border-radius: 10px; padding: 15px; background: linear-gradient(135deg, #FFBA89 0%, #FFD884 100%); margin: 4px 0px; box-shadow: none;"><div style="max-width: 800px; margin: 0px auto; text-align: center; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;"><p style="color: #4B1F00; margin: 0px 0px 1px; font-size: 22px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;">
       🥈 <strong>New to Zoner? Start here.</strong></p> 
-<a href="/en/fase_zoner_guide" target="_blank" style="display: inline-block; padding: 4px 50px; background:#ffffff; color: #000000; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none; border-radius: 50px; font-weight: bold; text-decoration: none; transition: transform 0.2s; margin: 5px; margin-top: 15px; box-shadow: none;">
+<a href="/en/Zoner/quick_start" target="_blank" style="display: inline-block; padding: 4px 50px; background:#ffffff; color: #000000; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none; border-radius: 50px; font-weight: bold; text-decoration: none; transition: transform 0.2s; margin: 5px; margin-top: 15px; box-shadow: none;">
       📖 View the Quick Guide →
 </a></div></div>
 <div style="text-align: center;">

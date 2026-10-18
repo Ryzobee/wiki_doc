@@ -56,13 +56,15 @@ Yoke 配件是围绕 Root 主机系列设计的模块化扩展组件，覆盖灯
 
 
 
-## Zoner平台
+## Zoner 平台
 
-Zoner 平台是用于快速部署项目模板的网站。Zoner 的目标是降低项目从“想法”到“可运行作品”的门槛，让用户更快完成调试、部署和分享。
+Zoner 平台用于发现项目、查看模块与接线、部署固件和管理设备。通过 R-Link Beta，还可以编写与管理 RootMaker Lua 脚本。
+
+查看 [Zoner 平台总览](/zh/Zoner)、[设备管理](/zh/Zoner/device) 或 [R-Link Beta 使用说明](/zh/Zoner/rlink)。
 
 <div style="border-radius: 10px; padding: 15px; background: linear-gradient(135deg, #FFBA89 0%, #FFD884 100%); margin: 4px 0px; box-shadow: none;"><div style="max-width: 800px; margin: 0px auto; text-align: center; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;"><p style="color: #4B1F00; margin: 0px 0px 1px; font-size: 22px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;">
       🥈 <strong>如果你是第一次使用Zoner平台从这里快速开始</strong></p> 
-<a href="/zh/fase_zoner_guide" target="_blank" style="display: inline-block; padding: 4px 50px; background:#ffffff; color: #000000; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none; border-radius: 50px; font-weight: bold; text-decoration: none; transition: transform 0.2s; margin: 5px; margin-top: 15px; box-shadow: none;">
+<a href="/zh/Zoner/quick_start" target="_blank" style="display: inline-block; padding: 4px 50px; background:#ffffff; color: #000000; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none; border-radius: 50px; font-weight: bold; text-decoration: none; transition: transform 0.2s; margin: 5px; margin-top: 15px; box-shadow: none;">
       📖 查看快速指南 →
 </a></div></div>
 <div style="text-align: center;">

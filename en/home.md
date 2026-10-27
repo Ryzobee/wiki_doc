@@ -1,9 +1,11 @@
 ---
-title: "Welcome to the Ryzobee Wiki"
-description: "Welcome to the Ryzobee Wiki, where you can find support for our hardware and software products"
-tags: "Ryzobee, Home"
+title: Welcome to the Ryzobee Wiki
+description: Welcome to the Ryzobee Wiki, where you can find support for our hardware and software products
 published: true
-isPublished: true
+date: 2026-10-27T14:51:27.071Z
+tags: home, ryzobee
+editor: markdown
+dateCreated: 2026-05-18T10:12:53.863Z
 ---
 
 <div style="border-radius: 10px; padding: 15px; background: linear-gradient(135deg, #8DC6FF 0%, #AABEFF 100%); margin: 4px 0px; box-shadow: none;"><div style="max-width: 800px; margin: 0px auto; text-align: center; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;"><p style="color: #ffffff; margin: 0px 0px 1px; font-size: 22px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; outline: none;">
@@ -24,7 +26,7 @@ The Root controller series is the core hardware of the RyzoBee ecosystem, connec
 
 <div style="text-align: center;">
     <div style="display: inline-block; width: 20%; min-width: 140px; margin: 10px; text-align: center; background: rgb(255, 255, 255); border-radius: 5px; padding: 15px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;">
-    <a href="/root/rootmaker" target="_blank">
+    <a href="/root/rootmaker/rootmaker" target="_blank">
     <img src="https://res.8ms.xyz/ryzobee/wiki/RootMaker.png" alt="RootMaker" style="width: 100%; height: auto; border-radius: 5px; margin-bottom: 10px;"> 
     <br> RootMaker </a> </div>
 	<div style="display: inline-block; width: 20%; min-width: 140px; margin: 10px; text-align: center; background: rgb(255, 255, 255); border-radius: 5px; padding: 15px; box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;">
